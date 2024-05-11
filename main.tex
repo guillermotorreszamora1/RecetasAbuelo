@@ -1,0 +1,73 @@
+% arara: clean: {files: [main.aux, main.log, main.out,main.toc, main.pdf]}
+% arara: pdflatex: {shell: yes}
+% arara: pdflatex: {shell: yes}
+% arara: clean: {files: [main.aux, main.log, main.out,main.toc]}
+
+\documentclass{RecipeBook}
+\begin{document}
+
+\titlepage[Las recetas de Manolo]
+	{Vacuno/albondigas.jpg}
+	{Vacuno/estofadobuey.jpg}
+	{Vacuno/Terneraasada.jpg}
+% Arreglar problema con recipebook que tiene ese texto fijo
+\renewcommand{\contentsname}{\hypertarget{contents}{
+	\bfseries \fontsize{\recipetitlefontsize}{\recipetitlefontsize}\selectfont
+	Recetas}
+}
+\renewcommand{\newline}{\hfill \break}
+\newcommand{\dline}{\newline \newline}
+\makecontents
+
+\pagestyle{recipe}
+\section{Aves}
+\input{Aves/polloasado}
+\section{Caza}
+\input{Caza/conejotomate}
+\section{Cerdo}
+\input{Cerdo/costillas}
+\input{Cerdo/carrilleras}
+\section{Entrantes}
+\input{entrantes/alitaspollo}
+\input{entrantes/croquetasbacalao}
+\input{entrantes/ensaladilla}
+\input{entrantes/huevosrellenos}
+\input{entrantes/salmorejo}
+\input{entrantes/vichyssoise}
+\input{entrantes/almejas_marinera}
+\section{Legumbres}
+\input{legumbres/fabes_almeja}
+\input{legumbres/lentejas}
+\input{legumbres/garbanzos_sepia}
+\section{Mariscos}
+\input{mariscos/cigala}
+\input{mariscos/mejillones_picantones}
+\section{Pasta}
+\input{pasta/canelones}
+\input{pasta/ensaladapasta}
+\input{pasta/espaguetis}
+\input{pasta/lasana}
+\input{pasta/lasanacarne}
+\section{Platos únicos}
+\input{platosunicos/cocido}
+\input{platosunicos/patataschirlas}
+\input{platosunicos/arroz_bacalao}
+\section{Platos típicos}
+\input{platostipicos/migas}
+\section{Postres}
+\input{postres/tartamanzana}
+\input{postres/torrijas}
+\section{Salsas}
+\input{Salsas/bechamel}
+\section{Vacuno}
+\input{Vacuno/albondigas}
+\input{Vacuno/estofadobuey}
+\input{Vacuno/Terneraasada}
+\section{Verduras}
+\input{verduras/Pimientos}
+\input{verduras/pistocastellano}
+\input{verduras/purrusalda}
+\input{verduras/berenjenas_rellenas}
+\input{verduras/calabacin_rebozado}
+\clearpage
+\end{document}

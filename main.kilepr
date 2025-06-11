@@ -18,7 +18,19 @@ src_extensions=.tex .ltx .latex .dtx .ins
 MakeIndex=
 QuickBuild=
 
+[item:Aves/jamoncitospollo.tex]
+archive=true
+encoding=UTF-8
+highlight=LaTeX
+mode=LaTeX
+
 [item:Aves/polloasado.tex]
+archive=true
+encoding=UTF-8
+highlight=LaTeX
+mode=LaTeX
+
+[item:Aves/pollopepitoria.tex]
 archive=true
 encoding=UTF-8
 highlight=LaTeX
@@ -79,6 +91,12 @@ highlight=LaTeX
 mode=LaTeX
 
 [item:entrantes/almejas_marinera.tex]
+archive=true
+encoding=UTF-8
+highlight=LaTeX
+mode=LaTeX
+
+[item:entrantes/crema_esparragos.tex]
 archive=true
 encoding=UTF-8
 highlight=LaTeX
@@ -186,6 +204,12 @@ encoding=UTF-8
 highlight=LaTeX
 mode=LaTeX
 
+[item:pescados/atun_tomate.tex]
+archive=true
+encoding=UTF-8
+highlight=LaTeX
+mode=LaTeX
+
 [item:platostipicos/migas.tex]
 archive=true
 encoding=UTF-8
@@ -240,7 +264,25 @@ encoding=UTF-8
 highlight=LaTeX
 mode=LaTeX
 
+[item:verduras/cremaesparragos.tex]
+archive=true
+encoding=UTF-8
+highlight=LaTeX
+mode=LaTeX
+
+[item:verduras/pastellesparagos.tex]
+archive=true
+encoding=UTF-8
+highlight=LaTeX
+mode=LaTeX
+
 [item:verduras/pistocastellano.tex]
+archive=true
+encoding=UTF-8
+highlight=LaTeX
+mode=LaTeX
+
+[item:verduras/potajegarbanzos.tex]
 archive=true
 encoding=UTF-8
 highlight=LaTeX

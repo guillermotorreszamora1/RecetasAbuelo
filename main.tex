@@ -3,9 +3,11 @@
 % arara: pdflatex: {shell: yes}
 % arara: clean: {files: [main.aux, main.log, main.out,main.toc]}
 
-\documentclass{RecipeBook}
-\begin{document}
 
+\documentclass{RecipeBook}
+
+\usepackage[spanish]{babel}
+\begin{document}
 \titlepage[Las recetas de Manolo]
 	{Vacuno/albondigas.jpg}
 	{Vacuno/estofadobuey.jpg}
@@ -24,6 +26,7 @@
 \input{Aves/polloasado}
 \input{Aves/pollopepitoria}
 \input{Aves/jamoncitospollo}
+\input{entrantes/alitaspollo}
 \section{Caza}
 \input{Caza/conejotomate}
 \section{Cerdo}
@@ -31,8 +34,6 @@
 \input{Cerdo/carrilleras}
 \input{Cerdo/chuletas_riojana}
 \section{Entrantes}
-\input{entrantes/alitaspollo}
-\input{entrantes/crema_esparragos}
 \input{entrantes/croquetasbacalao}
 \input{entrantes/ensaladilla}
 \input{entrantes/huevosrellenos}
@@ -42,6 +43,7 @@
 \section{Legumbres}
 \input{legumbres/fabes_almeja}
 \input{legumbres/lentejas}
+\input{verduras/potajegarbanzos}
 \input{legumbres/garbanzos_sepia}
 \section{Mariscos}
 \input{mariscos/cigala}
@@ -54,6 +56,7 @@
 \input{pasta/lasanacarne}
 \section{Pescados}
 \input{pescados/atun_tomate}
+\input{pescados/bacalao_tomate}
 \section{Platos únicos}
 \input{platosunicos/cocido}
 \input{platosunicos/patataschirlas}
@@ -74,10 +77,12 @@
 \input{verduras/pastellesparagos}
 \input{verduras/Pimientos}
 \input{verduras/pistocastellano}
-\input{verduras/potajegarbanzos}
 \input{verduras/purrusalda}
 \input{verduras/berenjenas_rellenas}
 \input{verduras/calabacin_rebozado}
 \input{verduras/cremaesparragos}
 \clearpage
 \end{document}
+%codornices
+%bacalao con tomate
+%boquerones en escabeche

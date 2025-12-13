@@ -6,17 +6,23 @@ def_graphic_ext=eps
 img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=3
-kileversion=2.9.93
+kileversion=2.9.94
 masterDocument=
 name=main
 pkg_extIsRegExp=false
-pkg_extensions=.cls .sty .bbx .cbx .lbx
+pkg_extensions=.cls .sty .bbx .cbx .lbx .dbx
 src_extIsRegExp=false
 src_extensions=.tex .ltx .latex .dtx .ins
 
 [Tools]
 MakeIndex=
 QuickBuild=
+
+[item:Aves/codornices.tex]
+archive=true
+encoding=UTF-8
+highlight=LaTeX
+mode=LaTeX
 
 [item:Aves/jamoncitospollo.tex]
 archive=true
